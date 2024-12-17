@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,c,m,max;
+    printf("\tEnter three number:");
+    scanf("%d%d%d",&a,&b,&c);
+    m=a>b?a:b;
+    max=c>m?c:m;
+    printf("\tmaximum=%d",max);
+
+    return 0;
+}
