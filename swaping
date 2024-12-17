@@ -1,0 +1,13 @@
+  #include<stdio.h>
+       int main()
+{ 
+  int first,second,temp;
+   print(“\tenter two number:”);
+    scanf(“%d%d”,&first,&second:”);
+   temp=first;
+   first=second;
+   second=temp;
+Printf(“\tfirst no=%d\n”,first);
+Printf(“\tsecond no=%d”,second);
+return 0;
+}
