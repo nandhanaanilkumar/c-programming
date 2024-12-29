@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    float centigrade,fahr ;
+    printf("\tEnter the centigrade value:");
+    scanf("%f",&centigrade);
+    fahr=9*(centigrade/5)+32;
+    printf("\tThe Fahrenheit value of %f is %f",centigrade,fahr);
+    return 0;
+}
