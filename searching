@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+ {
+     int a[20],n,i,element,found;
+     printf("\tEnter the limit:");
+     scanf("%d",&n);
+     for(i=0;i<n;i++)
+    {
+        printf("\tEnter a[%d]:",i);
+        scanf("%d",&a[i]);
+    } 
+     printf("\tEnter search element:");
+     scanf("%d",&element);
+     for(i=0;i<n;i++)
+     {
+     if(a[i]==element)
+     {
+       found=1;
+     }
+     }
+     if(found==1)
+     {
+         printf("\tTHE ELEMENT IS FOUND");
+     }
+     else
+     {
+         printf("\tTHE ELEMENT IS NOT FOUND");
+     }
+     return 0;
+ }
