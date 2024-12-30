@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    float km_per_h,miles_per_h;
+    printf("Enter the value in km/h:");
+    scanf("%f",&km_per_h);
+    miles_per_h=km_per_h*0.621371;
+    printf("\t%f of km/h is%f miles/h",km_per_h,miles_per_h);
+    return 0;
+}
