@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int num,n=1,mult;
+    printf("\tEnter the number:");
+    scanf("%d",&num);
+    while(n<=10)
+    {
+        mult=n*num;
+        printf("\t%d*%d=%d\n",n,num,mult);
+        n++;
+    }
+    return 0;
+}
