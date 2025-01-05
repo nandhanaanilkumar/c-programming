@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int num1,num2;
+    printf("\tEnter two numbers:");
+    scanf("%d%d",&num1,&num2);
+    while(num2!=0)
+    {
+        num1--;
+        num2--;
+    }
+    printf("\tDifference is %d",num1);
+    return 0;
+}
